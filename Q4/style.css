@@ -1,0 +1,17 @@
+ul {
+  border: 1px solid rgb(201, 201, 201);
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 300px;
+  box-shadow: 2px 2px 2px 2px rgb(205, 201, 201);
+  padding: 20px;
+  list-style-type: none;
+  background-color: rgb(227, 227, 219);
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
